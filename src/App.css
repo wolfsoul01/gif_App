@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5px ;
+  align-items: start;
 }
 
 .copy{
@@ -20,6 +21,9 @@
 
 .gif-item{
   position: relative;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0,.8);
 }
 
 .gif-item button:active{

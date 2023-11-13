@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import Prop_Type from 'prop-types'
 import { useState } from 'react'
 export function AddCategory ({ setCategorys }) {
   const [input, setInput] = useState('')
@@ -10,9 +10,9 @@ export function AddCategory ({ setCategorys }) {
   function handleSubmit (e) {
     e.preventDefault()
 
-    if ((input.length == 0)) return
+    if (input.length == 0) return
 
-    setCategorys(e => [ input,...e])
+    setCategorys(e => [input, ...e])
     setInput('')
   }
 
@@ -24,4 +24,8 @@ export function AddCategory ({ setCategorys }) {
       </form>
     </>
   )
+}
+
+AddCategory.propTypes = {
+  setCategorys: Prop_Type.func.isRequired
 }

@@ -9,7 +9,7 @@ function App () {
 
   return (
     <>
-      <h1 style={{ textAlign: 'center' }}>Gif App </h1>
+      <h1 style={{ textAlign: 'center', color:'white' , fontSize:'40px',fontWeight:'bold'}}>Gif App </h1>
 
       <AddCategory setCategorys={setCategorys} />
 

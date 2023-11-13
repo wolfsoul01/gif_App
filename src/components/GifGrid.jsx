@@ -7,7 +7,9 @@ export function GifGrid ({ categ }) {
 
   return (
     <section>
-      <h4>{categ}</h4>
+      <h4 style={{ color: 'white', fontSize: '20px', fontWeight: 'bold' }}>
+        {categ}
+      </h4>
       <hr />
 
       <aside className='grid-gif'>

@@ -1,1 +1,0 @@
-https://api.giphy.com/v1/gifs/search?api_key=7dY9PIN1NBgLOdhGE8IgpeTLHynLRm3f&q=

@@ -1,0 +1,30 @@
+.grid-gif{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px ;
+}
+
+.copy{
+  position: absolute;
+  top: 0;
+
+}
+
+.copy button{
+  width: 100%;
+  background-color: rgba(0, 0, 0,.8);
+  color: aliceblue;
+  border: none;
+  padding: 0 5px;
+}
+
+.gif-item{
+  position: relative;
+}
+
+.gif-item button:active{
+
+  scale: 1.1;
+  background-color: black;
+
+}
